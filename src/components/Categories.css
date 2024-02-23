@@ -1,0 +1,30 @@
+.category-slider {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.category-item {
+    text-align: center;
+    flex: 0 0 auto; /* Prevent item from growing or shrinking */
+    margin-right: 20px; /* Adjust spacing between items */
+}
+
+.category-image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make image container round */
+    overflow: hidden;
+}
+
+.category-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers container */
+}
+
+.category-name {
+    display: block;
+    margin-top: 10px; /* Adjust spacing between image and name */
+}

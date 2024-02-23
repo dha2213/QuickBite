@@ -1,0 +1,39 @@
+{
+  "name": "quickbite",
+  "version": "1.0.0",
+   
+  
+  "scripts": {
+    "predeploy": "npm run build",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
+    "start": "npx parcel index.html",
+    "test": "jest"
+  },
+  "author": "Dhananjay Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "formik": "^2.2.9",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.22.0"
+  }
+}
